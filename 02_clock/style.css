@@ -1,0 +1,136 @@
+body{
+  
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+
+
+
+
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border: 10px solid red;
+    border-radius: 100%;
+    position: relative;
+
+}
+
+.clock-face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     /* border-radius: 50%;
+    background-color: darkkhaki;  */
+}
+
+.hand {
+    background-color: red;
+    width: 50%;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+}
+/* táº¡o kim h */
+.hour-hand {
+    background-color: black;
+    height: 12px;
+    /* width: 150px;
+    margin-left: 90px; */
+    border: 1px solid orange;
+}
+
+.min-hand {
+    background-color: yellow;
+    height: 7px;
+    /* width: 180px;
+    margin-left: 60px; */
+    border: 1px solid black;
+}
+
+.sec-hand {
+    background-color: green;
+    height: 4px;
+    /* width: 200px;
+    margin-left: 40px; */
+    border: 1px solid blue;
+}
+.number{
+    font-size: 35px;
+
+
+}
+ .twelve{
+    position: absolute;
+    right: 63%;
+    top: 2.5%;
+  }
+
+  .six{
+    position: absolute;
+    right: 64%;
+    top: 71%;
+  }
+
+  .three{
+    position: absolute;
+    right: 35%;
+    top: 38%;
+  }
+
+  .nine{
+    position: absolute;
+    right: 94.5%;
+    top: 38%;
+  }
+
+  .two{
+    position: absolute;
+    right: 39%;
+    top: 20%;
+  }
+
+  .one{
+    position: absolute;
+    right: 49.5%;
+    top: 7%;
+  }
+
+  .four{
+    position: absolute;
+    right: 40%;
+    top: 55%;
+  }
+
+  .five{
+    position: absolute;
+    right: 50%;
+    top: 67%;
+  }
+
+  .seven{
+    position: absolute;
+    right: 79.5%;
+    top: 67%;
+  }
+
+  .night{
+    position: absolute;
+    right: 90.5%;
+    top: 55%;
+  }
+
+  .ten{
+    position: absolute;
+    right: 89%;
+    top: 20.5%;
+  }
+  .eleven{
+    position: absolute;
+    right: 79%;
+    top: 7.5%;
+  }  
